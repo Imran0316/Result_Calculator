@@ -23,6 +23,20 @@ h1{
     color: white;
     padding: 100px 0px;
 }
+@media(max-width:768px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+    }
+    .result_container{
+        margin-top: 50px;
+    }
+    .form{
+        width: 80vw;
+    }
+}
 .form{
     width: 45vw;
 }
