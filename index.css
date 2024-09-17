@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+   background-color: black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 58px;
+    margin-top: 50px;
+    text-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5);
+    letter-spacing: 5px;
+}
+.container{
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    padding: 100px 0px;
+}
+.form{
+    width: 45vw;
+}
+label{
+    font-size: 26px;
+    text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.568);   
+    transition: all .5s;
+}
+label:hover{
+    text-shadow: -5px -5px 4px rgba(255, 255, 255, 0.584);   
+
+}
+input{
+    width: 70%;
+    padding: 12px 5px;
+    border-bottom: 2px solid white;
+    border-right: none;
+    background-color: #f4f4f425;
+    border-radius: 0px;
+    margin-top: 10px;   
+    color: white;
+    transition: all .5s;
+}
+input:hover{
+    box-shadow: -1px -1px 5px #fff;
+    
+}
+input::placeholder{
+    font-size: 16px;
+    color: white;
+}
+ input:active{
+    background-color: transparent ;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 0px;
+    border: 1px solid white;
+    background-color: #f4f4f425;
+    color: white;
+    box-shadow: -1px -1px 5px #fff;
+    transition: all .5s;
+    cursor: pointer;
+
+}
+button:hover{
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: -2px -2px 10px #fff;
+
+}
+
+.result_container{
+    width: 40vw;
+}
+
+.result_container td{
+    padding: 40px;
+    font-size: 24px !important;
+    text-transform: capitalize;
+    border: none;
+    background-color: #f4f4f425;
+    box-shadow: 0px 0px 5px #fff;
+}
+.result_container tr{
+    background-color: #f4f4f425;
+}
